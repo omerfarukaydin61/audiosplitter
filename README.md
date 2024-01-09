@@ -26,3 +26,7 @@ pip install -r requirements.txt
 
 Now that you have all the requirements, you should be able to just run the script either by using an IDE or by CMD with the following command (as long as you're in the audiosplitter folder path):
 ```python audiosplitter.py```
+```
+cd audiosplitter
+python audiosplitter.py input_file_path output_folder_path min_silence_length(optional) silence_threshold(optional) step_duration(optional)
+```
