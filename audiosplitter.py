@@ -129,7 +129,6 @@ def run_audioseg(input_file=None, output_dir=None, min_silence_length=0.6, silen
             i
         )
         if not dry_run:
-            print("Writing file {}".format(output_file_path))
             wavfile.write(
                 filename=output_file_path,
                 rate=sample_rate,
