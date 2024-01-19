@@ -138,6 +138,6 @@ if __name__ == "__main__":
     min_silence_length = float(sys.argv[3]) if len(sys.argv) > 3 else 0.6
     silence_threshold = float(sys.argv[4]) if len(sys.argv) > 4 else 1e-4
     step_duration = float(sys.argv[5]) if len(sys.argv) > 5 else 0.03/10
-    max_slice_length = float(sys.argv[6]) if len(sys.argv) > 6 else 10.0
+    max_slice_length = float(sys.argv[6]) if len(sys.argv) > 6 else 30.0
 
     run_audioseg(input_path, output_path, min_silence_length, silence_threshold, step_duration, max_slice_length)
